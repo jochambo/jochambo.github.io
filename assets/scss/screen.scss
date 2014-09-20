@@ -1,9 +1,49 @@
 // ---------------------------------------------------------------------------
 // Imports
+@import "0-plugins/plugins_dir"
+@import "1-styles/styles_dir"
+@import "2-modules/modules_dir"
+@import "3-layouts/layouts_dir"
 
-@import "bourbon/bourbon";
-@import "grid-settings";
-@import "neat/neat"; 
+/* -------------------------------------------------------------------------*/
+/* Variables */
+
+/* Colors */
+$base-color: #C4CFE8;
+$peach: #ECBAB0;
+$blue: #74809C;
+$light-green: #A4B587;
+$dark-green: #909C7C;
+
+/* Font Stack */
+$body-text: 'Droid Sans', sans-serif;
+$dispaly-text: 'Simonetta', cursive;
+$highlight-text: 'Raleway', sans-serif;
+
 
 /* -------------------------------------------------------------------------*/
 /* Layout */
+.wrapper {
+  @include outer-container;
+}
+
+body{
+  background-color: $base-color;
+  font: 100% $body-text
+}
+
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { display: inline-block; }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}

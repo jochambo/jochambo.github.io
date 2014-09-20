@@ -1,7 +1,40 @@
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+/*
+Error: Invalid CSS after "...ns/plugins_dir"": expected selector or at-rule, was "@import "1-styl..."
+        on line 4 of assets/scss/screen.scss
 
-/* -------------------------------------------------------------------------*/
-/* Layout */
+1: // ---------------------------------------------------------------------------
+2: // Imports
+3: @import "0-plugins/plugins_dir"
+4: @import "1-styles/styles_dir"
+5: @import "2-modules/modules_dir"
+6: @import "3-layouts/layouts_dir"
+7: 
+8: /* -------------------------------------------------------------------------*\/
+9: /* Variables *\/
+
+Backtrace:
+assets/scss/screen.scss:4
+/Users/thatmanjose1/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/scss/parser.rb:1163:in `expected'
+/Users/thatmanjose1/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/scss/parser.rb:1099:in `expected'
+/Users/thatmanjose1/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/scss/parser.rb:43:in `parse'
+/Users/thatmanjose1/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/engine.rb:393:in `_to_tree'
+/Users/thatmanjose1/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Users/thatmanjose1/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Users/thatmanjose1/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/plugin/compiler.rb:489:in `update_stylesheet'
+/Users/thatmanjose1/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/thatmanjose1/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/thatmanjose1/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/thatmanjose1/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/plugin/compiler.rb:293:in `watch'
+/Users/thatmanjose1/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/plugin.rb:108:in `method_missing'
+/Users/thatmanjose1/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/exec/sass_scss.rb:349:in `watch_or_update'
+/Users/thatmanjose1/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/exec/sass_scss.rb:50:in `process_result'
+/Users/thatmanjose1/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/exec/base.rb:40:in `parse'
+/Users/thatmanjose1/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/exec/base.rb:19:in `parse!'
+/Users/thatmanjose1/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/sass-3.4.4/bin/sass:13:in `<top (required)>'
+/Users/thatmanjose1/.rbenv/versions/2.0.0-p481/bin/sass:23:in `load'
+/Users/thatmanjose1/.rbenv/versions/2.0.0-p481/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...ns/plugins_dir\"\": expected selector or at-rule, was \"@import \"1-styl...\"\A         on line 4 of assets/scss/screen.scss\A \A 1: // ---------------------------------------------------------------------------\A 2: // Imports\A 3: @import \"0-plugins/plugins_dir\"\A 4: @import \"1-styles/styles_dir\"\A 5: @import \"2-modules/modules_dir\"\A 6: @import \"3-layouts/layouts_dir\"\A 7: \A 8: /* -------------------------------------------------------------------------*/\A 9: /* Variables */"; }
