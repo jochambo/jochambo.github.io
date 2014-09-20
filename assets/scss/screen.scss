@@ -11,17 +11,10 @@
   @include outer-container;
 }
 
-// body{
-//   background-color: $base-color;
-//   font: 100% $body-text
-// }
-
-/* line 325, ../sass/screen.scss */
 .icon {
   font-weight: normal;
   vertical-align: middle;
 }
-/* line 328, ../sass/screen.scss */
 .icon:before {
   content: attr(data-icon);
   font-family: "entypo";
@@ -29,28 +22,23 @@
   speak: none;
 }
 
-/* line 337, ../sass/screen.scss */
 .social .icon {
   font-size: 2em;
   padding: 0.8em;
 }
-/* line 340, ../sass/screen.scss */
-.social .icon.twitter:before, .social .icon.tumblr:before, .social .icon.github:before, .social .icon.dribbble:before, .social .icon.instagram:before, .social .icon.pinterest:before {
+.social .icon.twitter:before, .social .icon.github:before {
   font-family: "entypo-social";
   content: attr(data-icon);
 }
-/* line 344, ../sass/screen.scss */
 .social .icon.rss:before {
   font-family: "entypo";
   content: attr(data-icon);
 }
 
-/* line 351, ../sass/screen.scss */
 .presentation .icon {
   font-size: 1.5em;
 }
 
-/* line 355, ../sass/screen.scss */
 .presentation .icon-label {
   vertical-align: text-top;
 }
