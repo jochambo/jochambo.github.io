@@ -1,25 +1,9 @@
 // ---------------------------------------------------------------------------
 // Imports
-@import "0-plugins/plugins_dir"
-@import "1-styles/styles_dir"
-@import "2-modules/modules_dir"
-@import "3-layouts/layouts_dir"
-
-/* -------------------------------------------------------------------------*/
-/* Variables */
-
-/* Colors */
-$base-color: #C4CFE8;
-$peach: #ECBAB0;
-$blue: #74809C;
-$light-green: #A4B587;
-$dark-green: #909C7C;
-
-/* Font Stack */
-$body-text: 'Droid Sans', sans-serif;
-$dispaly-text: 'Simonetta', cursive;
-$highlight-text: 'Raleway', sans-serif;
-
+@import "0-plugins/plugins_dir";
+@import "1-styles/styles_dir";
+@import "2-modules/modules_dir";
+@import "3-layouts/layouts_dir";
 
 /* -------------------------------------------------------------------------*/
 /* Layout */
@@ -27,23 +11,46 @@ $highlight-text: 'Raleway', sans-serif;
   @include outer-container;
 }
 
-body{
-  background-color: $base-color;
-  font: 100% $body-text
+// body{
+//   background-color: $base-color;
+//   font: 100% $body-text
+// }
+
+/* line 325, ../sass/screen.scss */
+.icon {
+  font-weight: normal;
+  vertical-align: middle;
+}
+/* line 328, ../sass/screen.scss */
+.icon:before {
+  content: attr(data-icon);
+  font-family: "entypo";
+  font-size: 2em;
+  speak: none;
 }
 
-nav {
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
+/* line 337, ../sass/screen.scss */
+.social .icon {
+  font-size: 2em;
+  padding: 0.8em;
+}
+/* line 340, ../sass/screen.scss */
+.social .icon.twitter:before, .social .icon.tumblr:before, .social .icon.github:before, .social .icon.dribbble:before, .social .icon.instagram:before, .social .icon.pinterest:before {
+  font-family: "entypo-social";
+  content: attr(data-icon);
+}
+/* line 344, ../sass/screen.scss */
+.social .icon.rss:before {
+  font-family: "entypo";
+  content: attr(data-icon);
+}
 
-  li { display: inline-block; }
+/* line 351, ../sass/screen.scss */
+.presentation .icon {
+  font-size: 1.5em;
+}
 
-  a {
-    display: block;
-    padding: 6px 12px;
-    text-decoration: none;
-  }
+/* line 355, ../sass/screen.scss */
+.presentation .icon-label {
+  vertical-align: text-top;
 }

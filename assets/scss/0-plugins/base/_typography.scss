@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "entypo";
+  src: url('/assets/fonts/entypo.eot');
+  src: url('/assets/fonts/entypo.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/entypo.woff') format('woff'), url('/assets/fonts/entypo.ttf') format('truetype'), url('/assets/fonts/entypo.svg') format('svg');
+}
+@font-face {
+  font-family: "entypo-social";
+  src: url('/assets/fonts/entypo-social.eot');
+  src: url('/assets/fonts/entypo-social.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/entypo-social.ttf') format('truetype'), url('/assets/fonts/entypo-social.woff') format('woff'), url('/assets/fonts/entypo-social.svg') format('svg');
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   background-color: $base-background-color;
