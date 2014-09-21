@@ -44,10 +44,10 @@ $base-background-color: #C4CFE8;
 
 // Font Colors
 $base-font-color: $dark-gray;
-$base-accent-color: $blue;
+$base-accent-color: $dark-green;
 
 // Link Colors
-$base-link-color: $base-accent-color;
+$base-link-color: $blue;
 $hover-link-color: darken($base-accent-color, 15);
 $base-button-color: $base-link-color;
 $hover-button-color: $hover-link-color;
