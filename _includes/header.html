@@ -1,28 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  {% include headinclude.html %}
-</head>
-<body>
-  <header>
-    <div class="contain">
-      <nav>
-        <ul class="nav social pull-left">
-          <li>
-            <a href="/">Logo Here</a>
-          </li>
-        </ul>
-        <ul class="nav social navbar">
-          <li>
-            <a class="h6 nav-link blue" href="/projects">projects</a>
-          </li>
-          <li>
-            <a class="h6 nav-link blue" href="/about">about me</a>
-          </li>
-          <li>
-            <a class="h6 nav-link blue" href="/resume">resume</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+{% include headinclude.html %}
+<header class="centered-navigation">
+  <div class="centered-navigation-wrapper">
+    <a href="javascript:void(0)" class="mobile-logo">
+      <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png" alt="Logo image">
+    </a>
+    <a href="" class="centered-navigation-menu-button">MENU</a>
+    <ul class="centered-navigation-menu">
+      <li class="nav-link"><a href="#">About</a></li>
+      <li class="nav-link"><a href="#">Projects</a></li>
+      <li class="nav-link logo">
+        <a href="javascript:void(0)" class="logo">
+          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png" alt="Logo image">
+        </a>
+      </li>
+      <li class="nav-link"><a href="#">Resume</a></li>
+      <li class="nav-link"><a href="mailto:joey.chamberlin@gmail.com">Contact Me</a></li>
+    </ul>
+  </div>
+</header>
