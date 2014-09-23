@@ -10,3 +10,73 @@
 .wrapper {
   @include outer-container;
 }
+
+.section {
+  @include outer-container;
+}
+
+.blue {
+  color: $blue;
+  font-weight: bold;
+}
+
+.peach {
+  color: darken($peach, 20);
+  font-weight: bold;
+}
+
+.inner {
+  @include outer-container;
+  padding-top: 5%;
+}
+
+#about {
+  margin-top: 5%; }
+  #about p {
+    color: #345975;
+    text-align: left;
+    padding: 0 5%; }
+  #about .selfie {
+    height: auto;
+    width: 50%;
+    border-radius: 100%;
+    margin-bottom: 5%; }
+    @media (min-width: 767px) {
+      #about .selfie {
+        height: 25%;
+        width: auto; } }
+    @media (min-width: 1068px) {
+      #about .selfie {
+        height: 40%;
+        border: 2px solid #345975;
+        border-radius: .2em;
+        margin: 3% 5% 2% 2%;
+        float: right; } }
+  @media (min-width: 767px) {
+    #about {
+      margin-top: 0; }
+      #about p {
+        padding: 1% 5%; } }
+
+.headline {
+  text-align: center;
+}
+
+.letter {
+  @include outer-container;
+  display: inline;
+}
+
+.letter-part {
+  @include outer-container;
+  width: 44%;
+  float: left;
+  padding: 5%;
+}
+
+.letter-title{
+  font-family: $display-text;
+  font-weight: bold;
+  font-size: 2.2em;
+  color: darken($blue,20);
+}
