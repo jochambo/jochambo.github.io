@@ -13,16 +13,13 @@ title: foraker-labs
     <li class="letter-part">
       <p class="letter-title">let's talk about me</p>
       <p>
-        <span class="peach">I am a web developer.</span> I make web apps that are useful, beautiful, and intuitive. I get excited about using the best tool for the job, and believe good design runs through the whole app. Clear, descriptive variable names are just as important as choosing the right font.
+        <span class="peach">I am a web developer.</span> I make web apps that solve real problems in ways that are beautiful and intuitive. I get excited about using the best tool for the job. Sometimes that means trying a few times. It's more important to recognize clean code than to just make it work.
       </p>
       <p>
-        <span>I am not just a web developer.</span> I spent ten years in Naval Aviation, learned how to fly, to teach, and to learn. I've played guitar in more countries than I can count, but only for myself and my wife.  And there was this one time down in Honduras that my rear truck wheel passed me on the highway.
+        <span>I am not just a web developer.</span> I spent ten years in Naval Aviation, learned how to fly, to teach, and to learn. I've played guitar in more countries than I can count, but only for myself and my wife.  Every so often I cook a mean meal for my family and friends.  And there was this one time down in Honduras that my rear truck wheel passed me on the highway.
       </p>
-      <div>
-        <h4>building things is my favorite</h4>
-      </div>
       <p>
-        <span class="peach">I just graduated from <a href="http://devbootcamp.com/">Dev Bootcamp</a>.</span> I started programming during military deployments before Dev Bootcamp, but I learned more in the past nine weeks than I've ever learned in any other nine-week chunk of my life. At Dev Bootcamp, I learned how to learn new things really quickly, and to take pride in writing elegant, clear, tested code.
+        <span class="peach">I just graduated from <a href="http://devbootcamp.com/">Dev Bootcamp</a>.</span> I started programming primarily during military deployments before Dev Bootcamp, but I learned more in the past nineteen weeks than I've ever learned in any other nineteen-week chunk of my life. At Dev Bootcamp, I learned how to learn new things really quickly, and to work with a team not just to get the job done, but to do it creatively. The last few years have proved how much programmers really enjoy sharing the work that we do.  We love to talk about our latest projects or argue about the latest solutions to nagging problems.
       </p>
       <p>
         <span class="peach">I learned to love Javascript and Ruby.</span> I was excited, actually excited to learn React for the front-end of our final project. There were a lot of options, but I took the leap with my team into learning a new framework (version 0.11!) knowing we would have a little time to switch to another framework if necessary. React turned out to be a good gamble. The result was computationally quick and the UX remained very simple.  After that experience, I have no fear of trying something new insofar as I can find the best tool for the job.
@@ -31,13 +28,13 @@ title: foraker-labs
     <li class="letter-part">
       <p class="letter-title">let's talk about you</p>
       <p>
-        <span class="peach">You care about your craft.</span> I've been reading your blog posts on organizational patterns in Backbone.js, and I appreciated the way you started with a functional (but poorly organized) solution, then stepped up through increasingly modular design patterns. You care about building things the right way, not just making them work.
+        <span class="peach">You care about your craft.</span> I've noticed you are a key sponsor of Rocky Mountain Ruby. As someone relatively new to this craft, I know how much it benefits all skill levels to meet, collaborate, and grow together as programmers. The Foraker blog is full of amazingly practical and relavent tips.
       </p>
       <p>
-        <span class="peach">You develop people.</span> Your blog posts make it clear that lifetime learning matters to you. You take the time to give back to the tech community. You employ junior developers. You seem to be making an intentional effort to create a better tech community. I want to be a part of a team that grows together; one in which people drive each other to become better craftsmen and craftswomen.
+        <span class="peach">You develop community around software.</span> After years in the military, sometimes with very small, I dare say even agile, groups, I recognize the power of real teamwork. You work hard to foster not just a common mission, but the idea that not only is everyone involved in the mission, but that it is impossible to achieve alone. I appreciate that you start that teamwork mindset early on during the interview phase.
       </p>
       <p>
-        <span class="peach">You are making the web a better place.</span> I love the web. I am excited about building beautiful and meaningful things for the web. Unfortunately, so much of the products out there are poorly designed and relatively useless. I hate seeing a client get a bad value for their money, just because they worked with a consultancy that cared more about getting paid than about meeting the client's actual needs. And some of your projects, like SchoolVault, OneFreedom and BehaviorSnap, are making the world a better place. So much of the tech industry is built around micro-optimizing already comfortable lives, but I want the opportunity to work on projects that empower people to do real good in the world.
+        <span class="peach">You are making the web a better place.</span> I love the web. It saddens me that so much of the space is reserved for what Dan Melnick calls "micro-optimizing super-comfortable lives". Looking through your portfolio of projects, it seems you are doing the hard work to make the lives of those attempting to bring better healthcare, better education, and many other areas easier. As the son of a nurse and a paramedic, I can appreciate anyone who helps these unsung heroes.
       </p>
       <p>
         <span class="peach">You don't take yourselves too seriously.</span> You are serious about your craft, but you understand that a sustainable work pace is more productive than burning people out.
