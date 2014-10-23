@@ -449,7 +449,7 @@ ul {
   font-size: 3em;
   padding: 0.4em; }
 
-.social .icon.twitter:before, .social .icon.github:before, .social .icon.linkedin:before {
+.social .icon.twitter:before, .social .icon.github:before, .social .icon.linkedin:before, .project .icon.github:before {
   font-family: "entypo-social";
   content: attr(data-icon); }
 
@@ -474,6 +474,14 @@ ul {
     display: table; }
   .contact:after {
     clear: both; }
+
+.project .icon .github {
+  font-size: 1em;
+  padding: 0.4em;
+  display: inline-block; }
+
+.project-head {
+  display: inline; }
 
 .centered-navigation {
   background-color: #E7F1EC;
