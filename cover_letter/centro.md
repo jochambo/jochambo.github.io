@@ -14,7 +14,7 @@ title: centro
         <span class="peach">I am a web developer.</span> I make web apps that are useful, beautiful, and intuitive. I get excited about using the best tool for the job, and believe good design runs through the whole app. Clear, descriptive variable names are just as important as choosing the right font.
       </p>
       <p>
-        <span>I am not just a web developer.</span> That said... I just graduated from <a href="http://www.devbootcamp.com">Dev Bootcamp</a>. I started programming primarily during military deployments.  At DBC, I learned how to break problems down to their smallest parts, and to work with a team not just to get the job done, but to do it creatively. I enjoy how much programmers really love sharing the work that we do.  We love to talk about our latest projects or argue about the latest solutions to nagging problems.
+        <span class="peach">I am not just a web developer.</span> That said... I just graduated from <a href="http://www.devbootcamp.com">Dev Bootcamp</a>. I started programming primarily during military deployments.  At DBC, I learned how to break problems down to their smallest parts, and to work with a team not just to get the job done, but to do it creatively. I enjoy how much programmers really love sharing the work that we do.  We love to talk about our latest projects or argue about the latest solutions to nagging problems.
       </p>
       <p>
         <span class="peach">Learning new technologies is fun.</span> I was excited to use React for the front-end of our final project. There were a lot of options, but I took the leap with my team into learning a new framework (version 0.11!) knowing we would have very little time to switch to another framework if necessary. React turned out to be a good gamble. The result was computationally quick and the UX remained very simple.  After that experience, I have no fear of trying something new insofar as I can find the best tool for the job.
@@ -35,7 +35,7 @@ title: centro
         <span class="peach">You don't take yourselves too seriously.</span> You work hard, but you understand that a sustainable work pace is more productive than burning people out. It doesn't hurt that you provide a comfortable work environment. That and the people that you bring together are the reasons you have been named a Best Place to Work for 4 years.
       </p>
       <p>
-        <span class="blue">I'm your guy.</span> Shoot me an <a href="mailto:joey.chamberlin@gmail.com">email</a> or give me a call (757-343-8027). I can be in Boulder in 18 hours, if the wind is behind me.
+        <span class="blue">I'm your guy.</span> Shoot me an <a href="mailto:joey.chamberlin@gmail.com">email</a> or give me a call (757-343-8027).
       </p>
     </li>
   </ul>
