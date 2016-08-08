@@ -1,0 +1,14 @@
+# Site Settings
+title: "Hello. I'm Joey Chamberlin."
+description: "I'm a software developer from Chicago."
+url: 'http://www.joeychamberlin.com' # the base hostname & protocol for your site
+nav: "true"
+footer_text: '© 2016 Joey Chamberlin'
+twitter: 'joeychamberlin'
+github: 'jochambo'
+# medium: 'blog.jamigibbs.com'
+
+# Admin Settings
+admin_name: 'Joey Chamberlin'
+admin_email: 'joey.chamberlin@gmail.com'
+google_analytics: "UA-55103502-1" # Update with your own tracking ID
